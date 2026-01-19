@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="uz" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madaniy Meros | Andijon Viloyati Madaniy Meros Boshqarmasi</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <script type="module" async src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fheritagep9637back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.12"></script>
+  <script type="module" defer src="https://static.rocket.new/rocket-shot.js?v=0.0.2"></script>
+  </head>
+<body class="bg-heritage-dark text-heritage-light font-sans antialiased selection:bg-heritage-gold/30 selection:text-white">
+    
+    <!-- Noise Texture Overlay -->
+    <div class="fixed inset-0 bg-noise pointer-events-none z-0 opacity-30"></div>
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 top-0 transition-all duration-500 bg-heritage-dark/80 backdrop-blur-xl border-b border-white/5">
+        <div class="max-w-7xl mx-auto px-6 h-20 md:h-24 flex items-center justify-between">
+            <div class="flex items-center gap-4">
+                <div class="w-12 h-12 md:w-16 md:h-16 rounded-full bg-heritage-gold/10 border border-heritage-gold/30 flex items-center justify-center">
+                    <i data-lucide="landmark" class="w-6 h-6 md:w-8 md:h-8 text-heritage-gold"></i>
+                </div>
+                <div class="flex flex-col">
+                    <h1 class="font-serif text-base md:text-xl text-white font-semibold tracking-tight leading-tight">Madaniy Meros</h1>
+                    <p class="text-[10px] md:text-xs text-heritage-muted uppercase tracking-widest">Andijon Viloyati</p>
+                </div>
+            </div>
+            
+            <div class="flex items-center gap-3">
+                <div class="hidden md:flex items-center gap-2 glass-card px-4 py-2 rounded-full border-heritage-gold/20">
+                    <div class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></div>
+                    <span class="text-xs text-heritage-light">Online</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Portal Entry -->
+    <section class="relative min-h-screen flex items-center justify-center pt-32 pb-20 overflow-hidden">
+        
+        <!-- Ambient Background -->
+        <div class="absolute inset-0 overflow-hidden">
+            <!-- Heritage Pattern Background -->
+            <div class="absolute inset-0 opacity-10" style="background-image: url('data:image/svg+xml,%3Csvg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"%3E%3Cg fill=\"none\" fill-rule=\"evenodd\"%3E%3Cg fill=\"%23d4a574\" fill-opacity=\"1\"%3E%3Cpath d=\"M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
+            
+            <!-- Gradient Overlays -->
+            <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-heritage-dark via-heritage-dark/95 to-heritage-dark"></div>
+            
+            <!-- Ambient Lights -->
+            <div class="absolute top-[-10%] right-[-5%] w-[400px] md:w-[600px] h-[400px] md:h-[600px] bg-heritage-gold/5 rounded-full blur-[120px] mix-blend-screen"></div>
+            <div class="absolute bottom-[-10%] left-[-10%] w-[500px] md:w-[700px] h-[500px] md:h-[700px] bg-heritage-accent/5 rounded-full blur-[100px] mix-blend-screen"></div>
+        </div>
+
+        <div class="max-w-5xl mx-auto px-6 relative z-10 text-center">
+            
+            <!-- Status Badge -->
+            <div class="inline-flex items-center gap-2 glass-card px-4 py-2 rounded-full mb-8 border-heritage-gold/20 animate-fade-in">
+                <div class="w-2 h-2 rounded-full bg-heritage-gold shadow-[0_0_8px_rgba(212,165,116,0.6)]"></div>
+                <span class="text-xs text-heritage-light uppercase tracking-widest">Rasmiy Portal </span>
+            </div>
+
+            <!-- Main Heading -->
+            <h1 class="font-serif text-4xl md:text-6xl lg:text-7xl text-white mb-6 leading-[1.1] tracking-tight opacity-0 animate-fade-in-up" style="animation-delay: 0.2s;">
+                Andijon Viloyati<br>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-heritage-gold via-heritage-accent to-heritage-gold">
+                    Madaniy Meros
+                </span>
+            </h1>
+
+            <!-- Subtitle -->
+            <p class="text-base md:text-xl text-heritage-muted max-w-2xl mx-auto mb-12 font-light leading-relaxed opacity-0 animate-fade-in-up" style="animation-delay: 0.4s;">
+                Tarixiy merosimizni asrash va kelajak avlodlar uchun saqlab qolish
+            </p>
+
+            <!-- Large Entry Button -->
+            <div class="opacity-0 animate-fade-in-up" style="animation-delay: 0.6s;">
+                <a href="https://sites.google.com/view/andijon-madaniy-meros" 
+                   target="_blank"
+                   class="group relative inline-flex items-center justify-center gap-4 px-12 py-6 text-2xl md:text-3xl font-serif font-semibold text-heritage-dark bg-heritage-gold rounded-2xl overflow-hidden transition-all duration-500 hover:scale-105 hover:shadow-[0_20px_60px_rgba(212,165,116,0.4)] border-2 border-heritage-gold/50">
+                    
+                    <!-- Shine Effect -->
+                    <div class="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-gradient-to-r from-transparent via-white/30 to-transparent skew-x-12"></div>
+                    
+                    <!-- Icon -->
+                    <i data-lucide="arrow-right-circle" class="w-8 h-8 relative z-10 transition-transform group-hover:translate-x-2 duration-300"></i>
+                    
+                    <!-- Text -->
+                    <span class="relative z-10 tracking-wide">KIRISH</span>
+                </a>
+                
+                <p class="text-sm text-heritage-muted mt-4 font-light">Portalga kirish uchun bosing</p>
+            </div>
+
+            <!-- Floating Category Cards -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-20 opacity-0 animate-fade-in-up" style="animation-delay: 0.8s;">
+                
+                <!-- Card 1 -->
+                <div class="glass-card p-4 rounded-xl border-heritage-gold/10 hover:border-heritage-gold/30 transition-all duration-300 hover:-translate-y-2 group">
+                    <div class="w-12 h-12 rounded-full bg-heritage-gold/10 flex items-center justify-center mb-3 mx-auto group-hover:bg-heritage-gold/20 transition-colors">
+                        <i data-lucide="building-2" class="w-6 h-6 text-heritage-gold"></i>
+                    </div>
+                    <h3 class="text-sm font-semibold text-white mb-1">Obidalar</h3>
+                    <p class="text-xs text-heritage-muted">Tarixiy binolar</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="glass-card p-4 rounded-xl border-heritage-gold/10 hover:border-heritage-gold/30 transition-all duration-300 hover:-translate-y-2 group">
+                    <div class="w-12 h-12 rounded-full bg-heritage-gold/10 flex items-center justify-center mb-3 mx-auto group-hover:bg-heritage-gold/20 transition-colors">
+                        <i data-lucide="hammer" class="w-6 h-6 text-heritage-gold"></i>
+                    </div>
+                    <h3 class="text-sm font-semibold text-white mb-1">Arxeologiya</h3>
+                    <p class="text-xs text-heritage-muted">Qadimiy topilmalar</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="glass-card p-4 rounded-xl border-heritage-gold/10 hover:border-heritage-gold/30 transition-all duration-300 hover:-translate-y-2 group">
+                    <div class="w-12 h-12 rounded-full bg-heritage-gold/10 flex items-center justify-center mb-3 mx-auto group-hover:bg-heritage-gold/20 transition-colors">
+                        <i data-lucide="library" class="w-6 h-6 text-heritage-gold"></i>
+                    </div>
+                    <h3 class="text-sm font-semibold text-white mb-1">Muzeylar</h3>
+                    <p class="text-xs text-heritage-muted">Madaniy xazinalar</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="glass-card p-4 rounded-xl border-heritage-gold/10 hover:border-heritage-gold/30 transition-all duration-300 hover:-translate-y-2 group">
+                    <div class="w-12 h-12 rounded-full bg-heritage-gold/10 flex items-center justify-center mb-3 mx-auto group-hover:bg-heritage-gold/20 transition-colors">
+                        <i data-lucide="shield-check" class="w-6 h-6 text-heritage-gold"></i>
+                    </div>
+                    <h3 class="text-sm font-semibold text-white mb-1">Muhofaza</h3>
+                    <p class="text-xs text-heritage-muted">Himoya qilish</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Statement Section -->
+    <section class="py-24 relative overflow-hidden border-t border-white/5">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-heritage-accent/5 to-transparent"></div>
+        
+        <div class="max-w-6xl mx-auto px-6 relative z-10">
+            <div class="text-center mb-16">
+                <span class="inline-block text-heritage-gold font-medium text-sm uppercase tracking-widest mb-4 px-4 py-2 glass-card rounded-full border-heritage-gold/20">Bizning Vazifamiz</span>
+                <h2 class="font-serif text-3xl md:text-5xl text-white mb-6 tracking-tight">
+                    Madaniy Merosni Asrash
+                </h2>
+                <div class="w-20 h-[2px] bg-gradient-to-r from-transparent via-heritage-gold to-transparent mx-auto mb-8"></div>
+                <p class="text-lg text-heritage-muted max-w-3xl mx-auto leading-relaxed font-light">
+                    Andijon viloyati Madaniy Meros Boshqarmasi viloyat hududida joylashgan moddiy madaniy meros obyektlarini aniqlash, hisobga olish, hujjatlashtirish, muhofaza qilish va tiklash bilan shug'ullanadi.
+                </p>
+            </div>
+
+            <!-- Objectives Grid -->
+            <div class="grid md:grid-cols-2 gap-6">
+                
+                <!-- Objective 1 -->
+                <div class="glass-card p-8 rounded-2xl border-heritage-gold/10 hover:border-heritage-gold/30 transition-all duration-500 group hover:-translate-y-2">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-heritage-gold/10 flex items-center justify-center shrink-0 group-hover:bg-heritage-gold/20 transition-colors">
+                            <i data-lucide="building" class="w-6 h-6 text-heritage-gold"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-white mb-3 font-serif">Restavratsiya</h3>
+                            <p class="text-heritage-muted leading-relaxed font-light">Tarixiy me'moriy obidalarni asrash va restavratsiya qilish orqali ularning asl ko'rinishini saqlab qolish</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Objective 2 -->
+                <div class="glass-card p-8 rounded-2xl border-heritage-gold/10 hover:border-heritage-gold/30 transition-all duration-500 group hover:-translate-y-2">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-heritage-gold/10 flex items-center justify-center shrink-0 group-hover:bg-heritage-gold/20 transition-colors">
+                            <i data-lucide="search" class="w-6 h-6 text-heritage-gold"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-white mb-3 font-serif">Arxeologiya</h3>
+                            <p class="text-heritage-muted leading-relaxed font-light">Arxeologik topilmalar va qadimiy obyektlarni muhofaza qilish hamda ilmiy tadqiqotlar o'tkazish</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Objective 3 -->
+                <div class="glass-card p-8 rounded-2xl border-heritage-gold/10 hover:border-heritage-gold/30 transition-all duration-500 group hover:-translate-y-2">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-heritage-gold/10 flex items-center justify-center shrink-0 group-hover:bg-heritage-gold/20 transition-colors">
+                            <i data-lucide="landmark" class="w-6 h-6 text-heritage-gold"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-white mb-3 font-serif">Muzeylar</h3>
+                            <p class="text-heritage-muted leading-relaxed font-light">Muzeylar faoliyatini qo'llab-quvvatlash va madaniy xazinalarni jamoatchilikka yetkazish</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Objective 4 -->
+                <div class="glass-card p-8 rounded-2xl border-heritage-gold/10 hover:border-heritage-gold/30 transition-all duration-500 group hover:-translate-y-2">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-heritage-gold/10 flex items-center justify-center shrink-0 group-hover:bg-heritage-gold/20 transition-colors">
+                            <i data-lucide="scale" class="w-6 h-6 text-heritage-gold"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-white mb-3 font-serif">Qonunchilik</h3>
+                            <p class="text-heritage-muted leading-relaxed font-light">Madaniy meros bilan bog'liq qonunchilik talablari bajarilishini ta'minlash va nazorat qilish</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Objective 5 -->
+                <div class="glass-card p-8 rounded-2xl border-heritage-gold/10 hover:border-heritage-gold/30 transition-all duration-500 group hover:-translate-y-2 md:col-span-2">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-heritage-gold/10 flex items-center justify-center shrink-0 group-hover:bg-heritage-gold/20 transition-colors">
+                            <i data-lucide="users" class="w-6 h-6 text-heritage-gold"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-white mb-3 font-serif">Jamoatchilik bilan aloqa</h3>
+                            <p class="text-heritage-muted leading-relaxed font-light">Jamoatchilikka madaniy meros qadriyatlarini keng yetkazish va xalq orasida meros muhofazasi tushunchasini rivojlantirish</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision Section -->
+    <section class="py-24 relative overflow-hidden bg-heritage-accent/5">
+        <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+            
+            <!-- Decorative Quote Mark -->
+            <div class="w-16 h-16 mx-auto mb-8 rounded-full bg-heritage-gold/10 flex items-center justify-center">
+                <i data-lucide="quote" class="w-8 h-8 text-heritage-gold"></i>
+            </div>
+
+            <h2 class="font-serif text-3xl md:text-4xl text-white mb-8 leading-tight tracking-tight">
+                Bizning maqsad — Andijon viloyatining ko'hna tarixini kelajak avlodlar uchun asrab qolish
+            </h2>
+
+            <div class="flex items-center justify-center gap-4 mb-8">
+                <div class="h-[1px] w-12 bg-heritage-gold/50"></div>
+                <i data-lucide="star" class="w-5 h-5 text-heritage-gold"></i>
+                <div class="h-[1px] w-12 bg-heritage-gold/50"></div>
+            </div>
+
+            <p class="text-lg text-heritage-muted leading-relaxed font-light max-w-2xl mx-auto">
+                Har bir obida, har bir arxeologik topilma — bu bizning milliy o'zligimiz va tarixiy ildizlarimizning jonli guvohi. Ularni asrash — bu kelajakka mas'uliyatdir.
+            </p>
+
+            <!-- CTA Button -->
+            <div class="mt-12">
+                <a href="https://sites.google.com/view/andijon-madaniy-meros" 
+                   target="_blank"
+                   class="inline-flex items-center gap-3 px-8 py-4 text-base font-semibold text-heritage-dark bg-heritage-gold rounded-xl hover:bg-heritage-accent transition-all duration-300 hover:scale-105 hover:shadow-[0_10px_30px_rgba(212,165,116,0.3)] group">
+                    <span>Batafsil ma'lumot</span>
+                    <i data-lucide="external-link" class="w-5 h-5 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="relative pt-16 pb-8 border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            
+            <div class="flex flex-col md:flex-row items-center justify-between gap-8 mb-12">
+                
+                <!-- Logo & Info -->
+                <div class="flex items-center gap-4">
+                    <div class="w-16 h-16 rounded-full bg-heritage-gold/10 border border-heritage-gold/30 flex items-center justify-center">
+                        <i data-lucide="landmark" class="w-8 h-8 text-heritage-gold"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-serif text-xl text-white font-semibold">Heritage Portal</h3>
+                        <p class="text-sm text-heritage-muted">Andijon Viloyati Madaniy Meros Boshqarmasi</p>
+                    </div>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="flex flex-col md:items-end gap-2 text-center md:text-right">
+                    <p class="text-sm text-heritage-light">Rasmiy veb-portal</p>
+                    <a href="https://sites.google.com/view/andijon-madaniy-meros" target="_blank" class="text-heritage-gold hover:text-heritage-accent transition-colors text-sm font-medium">
+                        sites.google.com/view/andijon-madaniy-meros
+                    </a>
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-heritage-muted">
+                <p>© 2026 Andijon Viloyati Madaniy Meros Boshqarmasi. Barcha huquqlar himoyalangan.</p>
+                <div class="flex items-center gap-2">
+                    <div class="w-2 h-2 rounded-full bg-green-500"></div>
+                    <span>Online</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Add entrance animations on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+<script id="dhws-dataInjector" src="/public/dhws-data-injector.js"></script>
+</body>
+</html>
